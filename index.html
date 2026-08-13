@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jaime Ortega Rivas — Full Stack Developer</title>
+<meta name="description" content="Jaime Ortega Rivas, Full Stack Developer en Madrid especializado en desarrollo web con calidad y seguridad de software. Experiencia en Telefónica Innovación Digital (área CISO) y CIL Marketing Directo.">
+<meta name="author" content="Jaime Ortega Rivas">
+<meta name="color-scheme" content="dark">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jaime Ortega Rivas — Full Stack Developer">
+<meta property="og:description" content="Full Stack Developer en Madrid. Desarrollo software con calidad y seguridad desde el primer commit.">
+<meta property="og:locale" content="es_ES">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230a0e14%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 font-family=%22monospace%22 fill=%22%2322d3ee%22 text-anchor=%22middle%22>J</text></svg>">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jaime Ortega Rivas",
+  "jobTitle": "Full Stack Developer",
+  "email": "mailto:jortegarj@gmail.com",
+  "telephone": "+34616036012",
+  "address": { "@type": "PostalAddress", "addressLocality": "Madrid", "addressCountry": "ES" },
+  "sameAs": [
+    "https://www.linkedin.com/in/jaimeortegarivas/",
+    "https://github.com/jortegarj"
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<header class="site-header" id="siteHeader">
+  <nav class="nav" aria-label="Navegación principal">
+    <a href="#inicio" class="nav__brand" aria-label="Ir al inicio">JO<span class="nav__brand-dot">.</span>dev</a>
+
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav__menu" id="navMenu">
+      <li><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
+      <li><a href="#experiencia" class="nav__link">Experiencia</a></li>
+      <li><a href="#proyecto" class="nav__link">Proyecto</a></li>
+      <li><a href="#skills" class="nav__link">Stack</a></li>
+      <li><a href="#educacion" class="nav__link">Formación</a></li>
+      <li><a href="#contacto" class="nav__link">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__grid"></div>
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
+    </div>
+
+    <div class="container hero__content">
+      <p class="hero__eyebrow reveal">Full Stack Developer · Madrid, España</p>
+      <h1 class="hero__name reveal">Jaime Ortega Rivas</h1>
+      <p class="hero__role reveal"><span id="roleText"></span><span class="hero__cursor" aria-hidden="true">|</span></p>
+
+      <p class="hero__pitch reveal hero__pitch--tagline">
+        Full Stack Developer especializado en construir software con calidad y seguridad desde el primer commit.
+      </p>
+      <p class="hero__pitch reveal">
+        Desarrollo aplicaciones web de extremo a extremo — frontend, backend y bases de datos — aplicando buenas
+        prácticas de calidad de código y seguridad que aprendí trabajando dentro del área CISO de Telefónica.
+      </p>
+
+      <div class="hero__cta reveal">
+        <a href="mailto:jortegarj@gmail.com" class="btn btn--primary">Escríbeme</a>
+        <a href="https://github.com/jortegarj" target="_blank" rel="noopener noreferrer" class="btn btn--outline">Ver GitHub</a>
+      </div>
+
+      <div class="hero__meta reveal">
+        <span class="hero__meta-item">
+          <span class="status-dot" aria-hidden="true"></span>
+          Disponible · Madrid, híbrido o remoto
+        </span>
+      </div>
+
+      <div class="hero__social reveal">
+        <a href="https://github.com/jortegarj" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Jaime Ortega">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.27 5.68.42.36.78 1.07.78 2.16v3.2c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/jaimeortegarivas/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Jaime Ortega">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.58c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.68H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
+        </a>
+        <a href="mailto:jortegarj@gmail.com" aria-label="Enviar email a Jaime Ortega">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7 10-7"/></svg>
+        </a>
+        <a href="tel:+34616036012" aria-label="Llamar a Jaime Ortega">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92Z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <a href="#sobre-mi" class="hero__scroll" aria-label="Bajar a la siguiente sección">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section class="section" id="sobre-mi">
+    <div class="container">
+      <p class="section__eyebrow reveal">01</p>
+      <h2 class="section__title reveal">Sobre mí</h2>
+
+      <div class="about">
+        <div class="about__text reveal">
+          <p>
+            Soy desarrollador Full Stack con base en Madrid. Mi formación combina un Ciclo Formativo de Grado
+            Superior en Desarrollo de Aplicaciones Multiplataforma (IES Barajas) con un Bootcamp en Tecnología
+            Aplicada a las Organizaciones del Futuro (UNIR), y la he complementado con experiencia real en
+            producción: desde microservicios backend en Java hasta desarrollo full stack dentro del área de
+            ciberseguridad (CISO) de Telefónica Innovación Digital.
+          </p>
+          <p>
+            Lo que me diferencia no es solo escribir código que funcione, sino escribir código que se pueda mantener
+            y defender: uso <strong>SonarQube</strong> para controlar la calidad, y he trabajado con herramientas de
+            seguridad de nivel empresa como <strong>Palo Alto Networks Prisma</strong> y <strong>Tenable.io</strong>.
+            Esa mentalidad se refuerza con mi certificación <strong>Proofpoint Certified AI Data Security
+            Specialist</strong> y mi participación en el Congreso de Seguridad Digital y Ciberinteligencia
+            <strong>C1b3rWall</strong>.
+          </p>
+          <p>Busco seguir creciendo como Full Stack Developer en equipos donde la calidad del software importe tanto como la velocidad de entrega.</p>
+        </div>
+
+        <div class="about__facts reveal">
+          <div class="fact-card">
+            <span class="fact-card__label">Idiomas</span>
+            <span class="fact-card__value">Español (nativo) · Inglés B2</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-card__label">Ubicación</span>
+            <span class="fact-card__value">Madrid, España</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-card__label">Modalidad</span>
+            <span class="fact-card__value">Híbrido o remoto</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section class="section section--alt" id="experiencia">
+    <div class="container">
+      <p class="section__eyebrow reveal">02</p>
+      <h2 class="section__title reveal">Experiencia</h2>
+
+      <div class="timeline">
+
+        <article class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="timeline__head">
+              <div>
+                <h3 class="timeline__role">Full Stack Developer</h3>
+                <p class="timeline__company">SIGA98 · Jornada completa</p>
+              </div>
+              <span class="timeline__date">jul. 2026 — actualidad</span>
+            </div>
+            <p class="timeline__note">Etapa actual, en curso.</p>
+          </div>
+        </article>
+
+        <article class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="timeline__head">
+              <div>
+                <h3 class="timeline__role">Full Stack Developer</h3>
+                <p class="timeline__company">Telefónica Innovación Digital · Área CISO</p>
+              </div>
+              <span class="timeline__date">abr. 2025 — abr. 2026 · 1 año 1 mes</span>
+            </div>
+            <ul class="timeline__list">
+              <li>Experiencia en desarrollo web con PHP, JavaScript, Bootstrap y CSS.</li>
+              <li>Manejo de bases de datos y pruebas de APIs y servicios web con Postman.</li>
+              <li>Uso de Docker para configurar y gestionar entornos de desarrollo y despliegue.</li>
+              <li>Control de versiones con GitHub y gestión ágil de proyectos con Jira.</li>
+              <li>Uso de SonarQube para detectar y corregir código duplicado, bugs y problemas de mantenibilidad, mejorando la calidad y claridad del software.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">PHP</span><span class="tag">JavaScript</span><span class="tag">Docker</span>
+              <span class="tag">GitHub</span><span class="tag">Jira</span><span class="tag">SonarQube</span>
+              <span class="tag">Postman</span><span class="tag">Palo Alto Prisma</span><span class="tag">Tenable.io</span>
+              <span class="tag">Microsoft Azure</span><span class="tag">Databricks</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="timeline__head">
+              <div>
+                <h3 class="timeline__role">Desarrollador Backend Java</h3>
+                <p class="timeline__company">CIL Marketing Directo, SL. · Contrato de prácticas · Madrid, presencial</p>
+              </div>
+              <span class="timeline__date">abr. 2024 — jun. 2024 · 3 meses</span>
+            </div>
+            <ul class="timeline__list">
+              <li>Desarrollo de microservicios en Java utilizando Spring Boot.</li>
+              <li>Diseño e implementación de APIs REST para la integración entre sistemas.</li>
+              <li>Modelado, gestión y optimización de bases de datos.</li>
+              <li>Diseño y generación de reportes dinámicos con JasperReports.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">APIs REST</span>
+              <span class="tag">Microservicios</span><span class="tag">JasperReports</span><span class="tag">DBeaver</span>
+              <span class="tag">Git / Sourcetree</span><span class="tag">Postman</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTO -->
+  <section class="section" id="proyecto">
+    <div class="container">
+      <p class="section__eyebrow reveal">03</p>
+      <h2 class="section__title reveal">Proyecto destacado</h2>
+
+      <div class="project reveal">
+        <div class="project__info">
+          <span class="project__date">abr. 2024 – jun. 2024 · En colaboración con mi hermano · Asociado con IES Barajas</span>
+          <h3 class="project__title">Chat0rt — Plataforma de chat con autenticación y pagos</h3>
+          <p class="project__desc">
+            Plataforma de chat con autenticación y pagos, desarrollada junto a mi hermano. Los usuarios se registran,
+            completan un pago por PayPal y acceden a chats individuales y grupales, con un flujo de autenticación
+            seguro gestionado con Firebase y una experiencia de comunicación fluida y colaborativa.
+          </p>
+          <p class="project__desc">
+            Construida con React y JavaScript sobre un servidor de desarrollo Vite, con Firebase como base de datos y
+            sistema de autenticación, control de versiones con Git (SourceTree y GitHub), y desplegada en un bucket
+            S3 de Amazon AWS para acceso público.
+          </p>
+
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">JavaScript</span><span class="tag">Vite</span>
+            <span class="tag">Firebase</span><span class="tag">AWS S3</span><span class="tag">Git / GitHub</span>
+          </div>
+
+          <a href="https://github.com/0so/Chat0rtOficial" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm project__link">
+            Ver repositorio en GitHub
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <p class="section__eyebrow reveal">04</p>
+      <h2 class="section__title reveal">Stack técnico</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3>Lenguajes</h3>
+          <div class="tag-row">
+            <span class="tag">Java</span><span class="tag">JavaScript</span><span class="tag">PHP</span>
+            <span class="tag">Python</span><span class="tag">SQL / PL-SQL</span><span class="tag">HTML</span><span class="tag">CSS</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Frameworks &amp; frontend</h3>
+          <div class="tag-row">
+            <span class="tag">React.js</span><span class="tag">Spring Boot</span><span class="tag">Bootstrap</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Bases de datos</h3>
+          <div class="tag-row">
+            <span class="tag">MySQL</span><span class="tag">DBeaver</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>DevOps &amp; herramientas</h3>
+          <div class="tag-row">
+            <span class="tag">Docker</span><span class="tag">Git</span><span class="tag">GitHub</span>
+            <span class="tag">Sourcetree</span><span class="tag">JIRA</span><span class="tag">Postman</span><span class="tag">SonarQube</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Cloud</h3>
+          <div class="tag-row">
+            <span class="tag">AWS</span><span class="tag">Microsoft Azure</span><span class="tag">Databricks</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Seguridad</h3>
+          <div class="tag-row">
+            <span class="tag">Palo Alto Networks Prisma</span><span class="tag">Tenable.io</span><span class="tag">Proofpoint</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Metodologías</h3>
+          <div class="tag-row">
+            <span class="tag">Scrum</span><span class="tag">Kanban</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCACION -->
+  <section class="section" id="educacion">
+    <div class="container">
+      <p class="section__eyebrow reveal">05</p>
+      <h2 class="section__title reveal">Formación y certificaciones</h2>
+
+      <div class="edu-grid">
+        <div class="edu-col reveal">
+          <h3 class="edu-col__title">Formación académica</h3>
+
+          <div class="edu-item">
+            <div class="edu-item__head">
+              <strong>UNIR — Universidad Internacional de La Rioja</strong>
+              <span>abr. 2025 — abr. 2026</span>
+            </div>
+            <p>Bootcamp en Tecnología Aplicada a las Organizaciones del Futuro, Desarrollador Back</p>
+            <div class="tag-row">
+              <span class="tag tag--sm">PHP</span><span class="tag tag--sm">Java</span><span class="tag tag--sm">Scrum</span>
+              <span class="tag tag--sm">Python</span><span class="tag tag--sm">JavaScript</span><span class="tag tag--sm">Docker</span>
+              <span class="tag tag--sm">Git</span><span class="tag tag--sm">Kanban</span>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-item__head">
+              <strong>IES Barajas</strong>
+              <span>sept. 2022 — jun. 2024</span>
+            </div>
+            <p>CFGS Desarrollo de Aplicaciones Multiplataforma</p>
+            <div class="tag-row">
+              <span class="tag tag--sm">MySQL</span><span class="tag tag--sm">CSS</span><span class="tag tag--sm">Java</span>
+              <span class="tag tag--sm">PL/SQL</span><span class="tag tag--sm">XML</span><span class="tag tag--sm">XSLT</span>
+              <span class="tag tag--sm">Python</span><span class="tag tag--sm">Git</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-col reveal">
+          <h3 class="edu-col__title">Certificaciones</h3>
+
+          <div class="cert-item">
+            <div class="cert-item__head">
+              <strong>Proofpoint Certified AI Data Security Specialist 2025</strong>
+              <span>dic. 2025 — dic. 2027</span>
+            </div>
+            <p>Proofpoint</p>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-item__head">
+              <strong>TALENTUM</strong>
+              <span>mar. 2026</span>
+            </div>
+            <p>Telefónica</p>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-item__head">
+              <strong>Formación Talentum</strong>
+              <span>jun. 2025</span>
+            </div>
+            <p>Telefónica</p>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-item__head">
+              <strong>VI Congreso de Seguridad Digital y Ciberinteligencia C1b3rWall</strong>
+              <span>jun. 2026</span>
+            </div>
+            <p>C1b3rWall</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section--cta" id="contacto">
+    <div class="container">
+      <p class="section__eyebrow reveal">06</p>
+      <h2 class="section__title reveal">Contacto</h2>
+      <p class="cta__text reveal">¿Buscas un Full Stack Developer con mentalidad de calidad y seguridad? Hablemos.</p>
+
+      <div class="cta__links reveal">
+        <a href="mailto:jortegarj@gmail.com" class="btn btn--primary btn--lg">jortegarj@gmail.com</a>
+        <a href="tel:+34616036012" class="btn btn--primary btn--lg">616 03 60 12</a>
+        <a href="https://www.linkedin.com/in/jaimeortegarivas/" target="_blank" rel="noopener noreferrer" class="btn btn--outline">LinkedIn</a>
+        <a href="https://github.com/jortegarj" target="_blank" rel="noopener noreferrer" class="btn btn--outline">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <span>© <span id="year"></span> Jaime Ortega Rivas</span>
+    <span>Madrid, España</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
