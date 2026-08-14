@@ -208,7 +208,8 @@ p { margin: 0; }
   padding: 26px;
   transition: border-color .25s var(--ease), transform .25s var(--ease);
 }
-.skill-card:hover { border-color: color-mix(in srgb, var(--accent) 50%, var(--border)); transform: translateY(-3px); }
+.skill-card:hover,
+.skill-card.reveal.is-visible:hover { border-color: color-mix(in srgb, var(--accent) 50%, var(--border)); transform: translateY(-3px); }
 .skill-card h3 { font-size: 1rem; margin-bottom: 16px; color: var(--text); }
 
 /* ===== Hero ===== */
@@ -316,7 +317,8 @@ p { margin: 0; }
   padding: 36px;
   transition: border-color .25s var(--ease), transform .25s var(--ease);
 }
-.project:hover { border-color: color-mix(in srgb, var(--accent) 50%, var(--border)); transform: translateY(-3px); }
+.project:hover,
+.project.reveal.is-visible:hover { border-color: color-mix(in srgb, var(--accent) 50%, var(--border)); transform: translateY(-3px); }
 .project__date { font-family: var(--font-mono); font-size: 0.82rem; color: var(--text-faint); }
 .project__title { font-size: 1.4rem; margin: 10px 0 16px; }
 .project__desc { color: var(--text-dim); max-width: 70ch; margin-bottom: 16px; }
